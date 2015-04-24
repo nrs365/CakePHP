@@ -23,3 +23,9 @@ the setup traffic lights.
 Read and edit `config/app.php` and setup the 'Datasources' and any other
 configuration relevant for your application.
 # CakePHP
+
+special fix for nginx
+at cmdln:
+ln -s webroot public
+link symbolic webroot (folder in cake) public the name of the folder that nginx recognizes for views to display
+
